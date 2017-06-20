@@ -27,7 +27,12 @@ xmlns:android="http://schemas.android.com/apk/res/android"
                 <param name="onload" value="true" />
             </feature>
         </config-file>
-
+       <config-file parent="/resources" target="res/values/strings.xml">
+               <string name="google_app_id">1:176707876039:android:7038db65a01a568a</string>
+           </config-file>
+           <config-file parent="/resources" target="res/values/strings.xml">
+               <string name="google_api_key">AIzaSyArBFsRQFEvAMb-2rkCQgtgVaEV_Q1nPxE</string>
+           </config-file> 
         <header-file src="src/ios/FirebaseAnalyticsPlugin.h" />
         <source-file src="src/ios/FirebaseAnalyticsPlugin.m" />
 
